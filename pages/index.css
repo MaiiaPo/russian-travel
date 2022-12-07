@@ -1,0 +1,9 @@
+/* VENDOR */
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
+
+/* ОБЩИЕ СТИЛИ */
+@import url(../blocks/page/page.css);
+
+/* HEADER */
+@import url(../blocks/header/header.css);
