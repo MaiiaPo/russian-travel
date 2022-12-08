@@ -2,4 +2,17 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  min-width: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+  .lead__container {
+    min-width: 928px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .lead__container {
+    min-width: 80%;
+  }
 }
