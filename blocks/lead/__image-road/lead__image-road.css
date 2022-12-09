@@ -12,6 +12,13 @@
   }
 }
 
+@media screen and (min-width: 1024px) {
+  .lead__image-road {
+    padding-left: 22px;
+    padding-top: 80px;
+  }
+}
+
 @media screen and (min-width: 1280px) {
   .lead__image-road {
     min-width: 85%;

@@ -11,12 +11,13 @@
     width: 95%;
     flex-direction: row;
     justify-content: space-between;
+    padding-top: 85px;
   }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .footer {
     width: 90%;
+    padding-top: 95px;
   }
 }
-
