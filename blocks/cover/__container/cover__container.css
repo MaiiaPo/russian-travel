@@ -11,7 +11,7 @@
 
 @media screen and (min-width: 768px) {
   .cover__container {
-    padding: 175px 85px;
+    padding: 116px 85px;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -22,7 +22,7 @@
 
 @media screen and (min-width: 1280px) {
   .cover__container {
-    padding: 240px 280px;
+    padding: 245px 280px;
   }
 
   .cover__container:hover {

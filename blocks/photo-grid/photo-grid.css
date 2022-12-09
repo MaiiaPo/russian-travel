@@ -12,8 +12,8 @@
   .photo-grid {
     width: 95%;
     grid-template-columns: 1fr 1fr;
-    gap: 16px;
-    padding-top: 90px;
+    gap: 12px;
+    padding-top: 86px;
   }
 }
 
@@ -21,13 +21,15 @@
   .photo-grid {
     width: 90%;
     grid-template-columns: repeat(3, 1fr);
-    gap: 14px;
+    gap: 11px;
+    padding-top: 91px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .photo-grid {
     grid-template-columns: repeat(4, 1fr);
-    gap: 16px;
+    gap: 12px 16px;
+    width: 1190px;
   }
 }
