@@ -11,19 +11,18 @@
 
 @media screen and (min-width: 768px) {
   .cover__container {
-    padding: 117px 81px;
+    padding: 175px 85px;
   }
 }
-
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
   .cover__container {
-    padding: 195px 232px;
+    padding: 196px 210px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .cover__container {
-    padding: 245px 312px;
+    padding: 240px 280px;
   }
 
   .cover__container:hover {
