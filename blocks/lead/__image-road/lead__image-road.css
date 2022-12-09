@@ -1,6 +1,6 @@
 .lead__image-road {
   position: relative;
-  min-width: 95%;
+  width: 95%;
   padding-left: 5px;
   padding-top: 30px;
 }
@@ -12,7 +12,7 @@
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1280px) {
   .lead__image-road {
     min-width: 85%;
   }

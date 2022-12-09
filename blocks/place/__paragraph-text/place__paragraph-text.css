@@ -1,0 +1,8 @@
+.place__paragraph-text {
+  padding-bottom: 25px;
+  margin: 0;
+}
+
+.place__paragraph-text ~ .place__paragraph-text {
+  padding-bottom: 0;
+}
