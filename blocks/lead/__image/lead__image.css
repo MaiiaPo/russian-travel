@@ -4,26 +4,26 @@
   background-size: cover;
   margin-top: 40px;
   width: 100%;
-  min-height: 200px;
+  max-height: 200px;
 }
 
 @media screen and (min-width: 768px) {
   .lead__image {
     background-image: url('../../../images/lead-polka.jpg');
-    min-height: 480px;
+    max-height: 480px;
     margin: 56px auto 0;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .lead__image {
-    min-height: 580px;
+    max-height: 580px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .lead__image {
-    min-height: 615px;
+    max-height: 615px;
     margin-top: 65px;
   }
 }

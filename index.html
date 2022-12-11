@@ -26,10 +26,13 @@
         <div class="lead__container">
           <h1 class="lead__title">Путешествия по России</h1>
           <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-          <div class="lead__image">
-            <img class="lead__image-road" src="images/road.svg" alt="Карта"/>
-          </div>
-          <p class="lead__caption">ваша полка — верхняя</p>
+          <figure>
+            <picture>
+              <source class="lead__image" media="(max-width: 320px)" srcset="./images/mobile/lead-polka_mobile.jpg" />
+              <img class="lead__image" src="./images/lead-polka.jpg" alt="Поезд"/>
+            </picture>
+            <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
+          </figure>
         </div>
       </section>
       <!-- Чего мы там не видели? -->
@@ -102,11 +105,11 @@
         </picture>
       </section>
       <!-- Места -->
-      <section class="places">
-        <div class="place">
+      <section class="places" aria-label="Места">
+        <article class="place">
           <h2 class="place__title">Куршская коса</h2>
           <div class="place__website">
-            <p class="place__url-heading">URL</p>
+            <span class="place__url-heading">url</span>
             <a class="place__link link" href="http://park-kosa.ru" target="_blank">park-kosa.ru</a>
           </div>
           <picture>
@@ -124,11 +127,11 @@
               Атмосфера здешних мест исключает суету, окуная в спокойствие природы и запах стального, 
               прохладного моря.</p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <h2 class="place__title">Кольский</h2>
           <div class="place__website">
-            <p class="place__url-heading">URL</p>
+            <span class="place__url-heading">url</span>
             <a class="place__link link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank">National Geographic</a>
           </div>
           <picture>
@@ -146,11 +149,11 @@
               накрывает апатия. Но ваша мечта увидеть северное сияние начинает сбываться 
               с билетом в Мурманск.</p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <h2 class="place__title">Алтай</h2>
           <div class="place__website">
-            <p class="place__url-heading">URL</p>
+            <span class="place__url-heading">url</span>
             <a class="place__link link" href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ" target="_blank">YouTube</a>
           </div>
           <picture>
@@ -166,11 +169,11 @@
               Так вы увидите всё разнообразие местной флоры и фауны. По лесам Алтая бродят лоси, над хребтами 
               летают орлы, а на равнинах пасутся косули. И знаменитые манулы — тоже обитатели Алтайского края.</p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <h2 class="place__title">Зимний Байкал</h2>
           <div class="place__website">
-            <p class="place__url-heading">URL</p>
+            <span class="place__url-heading">url</span>
             <a class="place__link link" href="https://vk.com/baikalmile" target="_blank">https://vk.com/baikalmile</a>
           </div>
           <picture>
@@ -185,12 +188,11 @@
               к мотоциклу, и тандем старается развить как можно бóльшую скорость на льду. В марте 
               2019 года на фестивале «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.</p>
           </div>
-          
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <h2 class="place__title">Карелия</h2>
           <div class="place__website">
-            <p class="place__url-heading">URL</p>
+            <span class="place__url-heading">url</span>
             <a class="place__link link" href="http://vodlozero.ru" target="_blank">http://vodlozero.ru/</a>
           </div>
           <picture>
@@ -206,26 +208,28 @@
               лесу на сотню километров не встретишь тропы. А на редких тропинках деревья в паре 
               метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
           </div>
-        </div>
+        </article>
+      </section>
+      <!-- COVER -->
+      <section class="cover">
+        <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__container" target="_blank">
+          <h2 class="cover__title">До Байкала «на&nbsp;собаках»</h2>
+          <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие 
+          от столицы до Байкала на электричках.</p>
+        </a>
       </section>
     </main>
-    <!-- COVER -->
-    <section class="cover">
-      <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__container" target="_blank">
-        <h2 class="cover__title">До Байкала «на&nbsp;собаках»</h2>
-        <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие 
-        от столицы до Байкала на электричках.</p>
-      </a>
-    </section>
     <!-- FOOTER -->
     <footer class="footer">
-      <ul class="footer__nav">
-        <li class="footer__link link"><a >Карты</a></li>
-        <li class="footer__link link"><a>Погода</a></li>
-        <li class="footer__link link"><a>Расписание</a></li>
-        <li class="footer__link link"><a>Календарь</a></li>
-        <li class="footer__link link"><a>Путешествия</a></li>
-      </ul>
+      <nav>
+        <ul class="footer__nav">
+          <li class="footer__link link"><a >Карты</a></li>
+          <li class="footer__link link"><a>Погода</a></li>
+          <li class="footer__link link"><a>Расписание</a></li>
+          <li class="footer__link link"><a>Календарь</a></li>
+          <li class="footer__link link"><a>Путешествия</a></li>
+        </ul>
+      </nav>
       <p class="footer__copyright">&copy; 2022 Майя Пономаренко</p>
     </footer>
   </div>
