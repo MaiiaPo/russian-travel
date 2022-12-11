@@ -28,6 +28,5 @@
 @media screen and (min-width: 1280px) {
   .place {
     width: 985px;
-    column-gap: 16px;
   }
 }

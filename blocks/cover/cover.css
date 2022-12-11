@@ -1,8 +1,5 @@
 .cover {
-  background-image: url('../../images/mobile/cover-background.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
+  background: url('../../images/mobile/cover-background.jpg') center/cover no-repeat;
   margin-top: 66px;
   display: flex;
 
@@ -20,8 +17,5 @@
     width: 1184px;
     margin: 92px auto 0;
     background-image: url('../../images/cover-background_max.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
   }
 }

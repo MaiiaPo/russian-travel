@@ -1,12 +1,7 @@
 .place__paragraph-text {
-  padding-top: 25px;
   margin: 0;
 }
 
-.place__paragraph-text ~ .place__paragraph-text {
-  padding-bottom: 0;
-}
-
-.places > .place > .place__paragraph > .place__paragraph-text:first-of-type {
-  padding-top: 0;
+.place__paragraph-text + .place__paragraph-text {
+  padding-top: 25px;
 }
