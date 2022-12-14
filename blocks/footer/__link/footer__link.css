@@ -2,6 +2,8 @@
   font-size: 24px;
   line-height: 24px;
   margin-bottom: 32px;
+  text-decoration: none;
+  color: #fff;
 }
 
 .footer__link:last-child {
@@ -14,11 +16,5 @@
     line-height: 18px;
     margin-right: 19px;
     margin-bottom: 20px;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .footer__link:hover {
-    cursor: pointer;
   }
 }
