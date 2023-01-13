@@ -12,10 +12,10 @@
 https://maiiapo.github.io/russian-travel/
 
 ### Используемые технологии
-HTML
-CSS (flex, grid, адаптивная вёрстка)
-BEM
-Figma
+* HTML
+* CSS (flex, grid, адаптивная вёрстка)
+* BEM
+* Figma
 
 
 **Figma**
